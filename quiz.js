@@ -21,34 +21,34 @@ function c2() {
 function c3() {
     var text = document.getElementById("a3");
     var a = text.value;
-    if (a == "aarathi") {
-        document.getElementById("demo3").innerHTML = "Can't revel you all know why";
+    if (a == "mansi") {
+        document.getElementById("demo3").innerHTML = "I have a evil friend named mansi. She cheated with me. I denied her to tell my best friend Nick name to others but she did";
     } else {
         document.getElementById("demo3").innerHTML =
-            "Your answer is wrong.";
+            "Your answer is wrong. I have a evil friend named mansi. She cheated with me. I denied her to tell my best friend Nick name to others but she did";
     }
 }
 function c4() {
     var text = document.getElementById("a4");
     var a = text.value;
     if (a == "ansh") {
-        document.getElementById("demo4").innerHTML = "Your answer is correct";
+        document.getElementById("demo4").innerHTML = "My next evil friend is ansh One day He asked me to send photo of my report card . I told him to don't send to anyone but he betrayed me by sending it to others";
     } else {
         document.getElementById("demo4").innerHTML =
-            "Your answer is wrong. correct answer is ansh.";
+            "Your answer is wrong. My next evil friend is ansh One day He asked me to send photo of my report card . I told him to don't send to anyone but he betrayed me by sending it to others";
     }
 }
-/*function c5() {
+function c5() {
     var text = document.getElementById("a5");
     var a = text.value;
-    if (a == "arunachal pradesh") {
-        document.getElementById("demo5").innerHTML = "Your answer is correct";
+    if (a == "adya") {
+        document.getElementById("demo5").innerHTML = "My next evil friend is adya. She is frauder. Ansh send my report card to adya and adya told me that ansh send me your report card and he has denied to tell me so buttt adya told me so.";
     } else {
         document.getElementById("demo5").innerHTML =
-            "Your answer is wrong. correct answer is arunachal pradesh.";
+            "My next evil friend is adya. She is frauder. Ansh send my report card to adya and adya told me that ansh send me your report card and he has denied to tell me so buttt adya told me so.";
     }
 }
-function c6() {
+/*function c6() {
     var text = document.getElementById("a6");
     var a = text.value;
     if (a == "1947") {
