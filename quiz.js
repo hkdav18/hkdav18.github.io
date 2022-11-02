@@ -21,31 +21,31 @@ function c2() {
 function c3() {
     var text = document.getElementById("a3");
     var a = text.value;
-    if (a == "mansi") {
-        document.getElementById("demo3").innerHTML = "I have a evil friend named mansi. She cheated with me. I denied her to tell my best friend Nick name to others but she did";
+    if (a == "nan") {
+        document.getElementById("demo3").innerHTML = "I have some frnds named adya, mansi, ayush, harshit rathi and rest of the class too.they help me many times. i Love them.";
     } else {
         document.getElementById("demo3").innerHTML =
-            "Your answer is wrong. I have a evil friend named mansi. She cheated with me. I denied her to tell my best friend Nick name to others but she did";
+            "I have some frnds named adya, mansi, ayush, harshit rathi and rest of the class too.they help me many times. i Love them.";
     }
 }
 function c4() {
     var text = document.getElementById("a4");
     var a = text.value;
-    if (a == "ansh") {
-        document.getElementById("demo4").innerHTML = "My next evil friend is ansh One day He asked me to send photo of my report card . I told him to don't send to anyone but he betrayed me by sending it to others";
+    if (a == "aarathi") {
+        document.getElementById("demo4").innerHTML = "I cant revel you all know why";
     } else {
         document.getElementById("demo4").innerHTML =
-            "Your answer is wrong. My next evil friend is ansh One day He asked me to send photo of my report card . I told him to don't send to anyone but he betrayed me by sending it to others";
+            "Your answer is wrong and i cant revel.";
     }
 }
 function c5() {
     var text = document.getElementById("a5");
     var a = text.value;
-    if (a == "adya") {
-        document.getElementById("demo5").innerHTML = "My next evil friend is adya. She is frauder. Ansh send my report card to adya and adya told me that ansh send me your report card and he has denied to tell me so buttt adya told me so.";
+    if (a == "ansh") {
+        document.getElementById("demo5").innerHTML = "I cant revel you all know why.";
     } else {
         document.getElementById("demo5").innerHTML =
-            "My next evil friend is adya. She is frauder. Ansh send my report card to adya and adya told me that ansh send me your report card and he has denied to tell me so buttt adya told me so.";
+            "Your answer is wrong and i cant revel.";
     }
 }
 /*function c6() {
