@@ -33,7 +33,10 @@ function c4() {
     var a = text.value;
     if (a == "aarathi") {
         document.getElementById("demo4").innerHTML = "I cant revel you all know why";
-    } else {
+    } 
+    if (a == "hitesh") {
+        document.getElementById("demo4").innerHTML = "I cant revel you all know why";
+    }else {
         document.getElementById("demo4").innerHTML =
             "Your answer is wrong and i cant revel.";
     }
@@ -43,7 +46,10 @@ function c5() {
     var a = text.value;
     if (a == "ansh") {
         document.getElementById("demo5").innerHTML = "I cant revel you all know why.";
-    } else {
+    } 
+    if (a == "hitesh") {
+        document.getElementById("demo4").innerHTML = "I cant revel you all know why";
+    }else {
         document.getElementById("demo5").innerHTML =
             "Your answer is wrong and i cant revel.";
     }
