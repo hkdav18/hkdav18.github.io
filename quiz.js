@@ -34,7 +34,7 @@ function c4() {
     if (a == "aarathi") {
         document.getElementById("demo4").innerHTML = "I cant revel you all know why";
     } 
-    if (a == "hitesh") {
+    else if (a == "hitesh") {
         document.getElementById("demo4").innerHTML = "I cant revel you all know why";
     }else {
         document.getElementById("demo4").innerHTML =
@@ -47,7 +47,7 @@ function c5() {
     if (a == "ansh") {
         document.getElementById("demo5").innerHTML = "I cant revel you all know why.";
     } 
-    if (a == "hitesh") {
+    else if (a == "hitesh") {
         document.getElementById("demo4").innerHTML = "I cant revel you all know why";
     }else {
         document.getElementById("demo5").innerHTML =
