@@ -32,26 +32,21 @@ function c4() {
     var text = document.getElementById("a4");
     var a = text.value;
     if (a == "aarathi") {
-        document.getElementById("demo4").innerHTML = "I cant revel you all know why";
-    } 
-    else if (a == "hitesh") {
-        document.getElementById("demo4").innerHTML = "I cant revel you all know why";
-    }else {
+        document.getElementById("demo4").innerHTML = "I cant revel.";
+    } else {
         document.getElementById("demo4").innerHTML =
-            "Your answer is wrong and i cant revel.";
+            "I cant revel.";
     }
 }
 function c5() {
     var text = document.getElementById("a5");
     var a = text.value;
     if (a == "ansh") {
-        document.getElementById("demo5").innerHTML = "I cant revel you all know why.";
+        document.getElementById("demo5").innerHTML = "I cant revel.";
     } 
-    else if (a == "hitesh") {
-        document.getElementById("demo4").innerHTML = "I cant revel you all know why";
-    }else {
+    else {
         document.getElementById("demo5").innerHTML =
-            "Your answer is wrong and i cant revel.";
+            "I cant revel.";
     }
 }
 /*function c6() {
