@@ -22,18 +22,22 @@ function c3() {
     var text = document.getElementById("a3");
     var a = text.value;
     if (a == "nan") {
-        document.getElementById("demo3").innerHTML = "I have some frnds named adya, mansi, ayush, harshit rathi and rest of the class too.they help me many times. i Love them.";
+        document.getElementById("demo3").innerHTML = "I have some frnds named adya, mansi, parv, shubam, vansh, harshit rathi and rest of the class too.they help me many times. i Love them.";
     } else {
         document.getElementById("demo3").innerHTML =
-            "I have some frnds named adya, mansi, ayush, harshit rathi and rest of the class too.they help me many times. i Love them.";
+            "I have some frnds named adya, mansi, parv, shubam, vansh, harshit rathi and rest of the class too.they help me many times. i Love them.";
     }
 }
 function c4() {
     var text = document.getElementById("a4");
     var a = text.value;
     if (a == "aarathi") {
-        document.getElementById("demo4").innerHTML = "I cant revel.";
-    } else {
+        document.getElementById("demo4").innerHTML = "Bilkul galat";
+    } 
+    else if (a == "hitesh") {
+        document.getElementById("demo4").innerHTML = "Bilkul sahi";
+    } 
+    else {
         document.getElementById("demo4").innerHTML =
             "I cant revel.";
     }
@@ -42,24 +46,31 @@ function c5() {
     var text = document.getElementById("a5");
     var a = text.value;
     if (a == "ansh") {
-        document.getElementById("demo5").innerHTML = "I cant revel.";
+        document.getElementById("demo5").innerHTML = "Bilkul galat";
+    } 
+    else if (a == "hitesh") {
+        document.getElementById("demo5").innerHTML = "Bilkul sahi";
     } 
     else {
         document.getElementById("demo5").innerHTML =
             "I cant revel.";
     }
 }
-/*function c6() {
+function c6() {
     var text = document.getElementById("a6");
     var a = text.value;
-    if (a == "1947") {
-        document.getElementById("demo6").innerHTML = "Your answer is correct";
-    } else {
+    if (a == "aa") {
+        document.getElementById("demo6").innerHTML = "I cant revel.";
+    } 
+    else if (a == "hitesh") {
+        document.getElementById("demo6").innerHTML = "Bilkul sahi";
+    } 
+    else {
         document.getElementById("demo6").innerHTML =
-            "Your answer is wrong. correct answer is 1947.";
+            "I cant revel.";
     }
 }
-function c7() {
+/*function c7() {
     var text = document.getElementById("a7");
     var a = text.value;
     if (a == "november") {
