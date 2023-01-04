@@ -10,11 +10,11 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "All my friends are toxic", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Mera dil ye pukare aaja", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Pasoori", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Industry baby", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Brown munde", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "All my friends are toxic", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Mere samne wali khidki mein ek ", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Bijlee Bijlee", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
     {songName: "Dance meri rani", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
     {songName: "Kacha Badam", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
