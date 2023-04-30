@@ -5,7 +5,7 @@ function c1() {
         document.getElementById("demo1").innerHTML = "Your answer is correct";
     } else {
         document.getElementById("demo1").innerHTML =
-            "Your answer is wrong. correct answer is divyanshi.";
+            "Your answer is wrong.";
     }
 }
 function c2() {
@@ -15,59 +15,59 @@ function c2() {
         document.getElementById("demo2").innerHTML = "Your answer is correct";
     } else {
         document.getElementById("demo2").innerHTML =
-            "Your answer is wrong. correct answer is yashika.";
+            "Your answer is wrong.";
     }
 }
 function c3() {
     var text = document.getElementById("a3");
     var a = text.value;
     if (a == "nan") {
-        document.getElementById("demo3").innerHTML = "I have some frnds named adya, mansi, parv, shubam, vansh, harshit rathi and rest of the class too.they help me many times. i Love them.";
+        document.getElementById("demo3").innerHTML = "I have some frnds named adya, mansi, parv, shubam, vansh, harshit rathi and rest of the class too.they help me many times.";
     } else {
         document.getElementById("demo3").innerHTML =
-            "I have some frnds named adya, mansi, parv, shubam, vansh, harshit rathi and rest of the class too.they help me many times. i Love them.";
+            "I have some frnds named adya, mansi, parv, shubam, vansh, harshit rathi and rest of the class too.they help me many times.";
     }
 }
 function c4() {
     var text = document.getElementById("a4");
     var a = text.value;
-    if (a == "aarathi") {
-        document.getElementById("demo4").innerHTML = "Bilkul galat";
+    if (a == "nan") {
+        document.getElementById("demo4").innerHTML = "nan";
     } 
-    else if (a == "hitesh") {
-        document.getElementById("demo4").innerHTML = "Bilkul sahi";
+    else if (a == "nan") {
+        document.getElementById("demo4").innerHTML = "nan";
     } 
     else {
         document.getElementById("demo4").innerHTML =
-            "I cant revel.";
+            "nan";
     }
 }
 function c5() {
     var text = document.getElementById("a5");
     var a = text.value;
-    if (a == "ansh") {
-        document.getElementById("demo5").innerHTML = "Bilkul galat";
+    if (a == "nan") {
+        document.getElementById("demo5").innerHTML = "nan";
     } 
-    else if (a == "hitesh") {
-        document.getElementById("demo5").innerHTML = "Bilkul sahi";
+    else if (a == "nan") {
+        document.getElementById("demo5").innerHTML = "nan";
     } 
     else {
         document.getElementById("demo5").innerHTML =
-            "I cant revel.";
+            "nan";
     }
 }
 function c6() {
     var text = document.getElementById("a6");
     var a = text.value;
-    if (a == "aa") {
-        document.getElementById("demo6").innerHTML = "I cant revel.";
+    if (a == "nan") {
+        document.getElementById("demo6").innerHTML = "nan";
     } 
-    else if (a == "hitesh") {
-        document.getElementById("demo6").innerHTML = "Bilkul sahi";
+    else if (a == "nan") {
+        document.getElementById("demo6").innerHTML = "nan";
     } 
     else {
         document.getElementById("demo6").innerHTML =
-            "I cant revel.";
+            "nan";
     }
 }
 /*function c7() {
